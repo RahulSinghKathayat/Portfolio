@@ -3,18 +3,19 @@ import code from '../assets/code2.png'
 
 const Works = () =>{
     return(
-        <div name='works' className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+        <div name='works' className="w-full md:h-screen text-gray-300 bg-black">
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
                 
                 <div className="pb-8 w-full flex justify-center items-center flex-col">
-                    <p className="text-4xl font-bold inline border-b-4 border-cyan-500 text-gray-300">Work</p>
+                    <p className="text-4xl font-bold inline border-b-4 border-cyan-500 text-gray-300">My Projects</p>
                     <p className="text-2xl py-6">Check out some of my most recent work</p>
                 </div>
 
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-                    <div style={{backgroundImage: `url(${code})`}} 
-                    className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-                        <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+                    <div
+                    className="bg-gradient-to-r from-cyan-500 to-blue-500 shadow-lg shadow-white group container hover:scale-110 duration-500 rounded-md flex justify-center items-center mx-auto content-div">
+                        <div className="opacity-100 group-hover:opacity-100 flex justify-center items-center flex-col">
                             <span className="text-lg font-bold text-white tracking-wider">Food ordering webpage</span>
                             <p className="text-center">Created a webpage using only HTML, CSS, and JavaScript 
                                 that includes a dynamic cart section, a list of available food items, a carousel, and an inquiry section.</p>
@@ -26,9 +27,9 @@ const Works = () =>{
                         </div>
                     </div>
 
-                    <div style={{backgroundImage: `url(${code})`}} 
-                    className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-                        <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
+                    <div
+                    className="bg-gradient-to-r from-cyan-500 to-blue-500 shadow-lg shadow-white group container hover:scale-110 duration-500 rounded-md flex justify-center items-center mx-auto content-div">
+                        <div className="opacity-100 group-hover:opacity-100 flex justify-center items-center flex-col">
                             <span className="text-lg font-bold text-white tracking-wider">Payment Website</span>
                             <p className="text-center">Created a webpage using the MERN stack, featuring a signup page, 
                                 a signin page, a dashboard, and a send money page.</p>
@@ -40,9 +41,9 @@ const Works = () =>{
                         </div>
                     </div>
                     
-                    <div style={{backgroundImage: `url(${code})`}} 
-                    className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-                        <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
+                    <div
+                    className="bg-gradient-to-r from-cyan-500 to-blue-500 shadow-lg shadow-white group container hover:scale-110 duration-500 rounded-md flex justify-center items-center mx-auto content-div ">
+                        <div className="opacity-100 group-hover:opacity-100 flex justify-center items-center flex-col">
                             <span className="text-lg font-bold text-white tracking-wider">My Portfolio</span>
                             <p className="text-center">Developed a portfolio website using ReactJS, featuring sections for Home, Skills, Projects, About, and Contact with smooth navigation and responsive design</p>
 

@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 
@@ -12,12 +13,12 @@ const Navbar = () =>{
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className="fixed w-full h-20 flex justify-between items-center px-4 bg-slate-900 text-gray-300">
-            <div>
+        <div className="fixed w-full h-20 flex justify-center items-center px-4 bg-slate-900 text-gray-300">
+            {/* <div>
                 <h1 className="font-thin text-2xl italic font-serif">RSK</h1>
-            </div>
+            </div> */}
 
-            <ul className="hidden md:flex gap-x-8">
+            <ul className="hidden md:flex gap-x-8 cursor-pointer">
                 <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
                 <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
                 <li><Link to="works" smooth={true} duration={500}>Works</Link></li>
@@ -40,19 +41,24 @@ const Navbar = () =>{
             <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
                 <ul>
                     <li className="w-40 h-14 flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-blue-600">
-                        <a href="https://linkedin.com" className="flex justify-between items-center w-full text-gray-300 px-4">
+                        <a href="https://www.linkedin.com/in/rahul-kathayat-0902322b3/" className="flex justify-between items-center w-full text-gray-300 px-4">
                         Linkedin <FaLinkedin size={30} />
                         </a>
                     </li>
 
                     <li className="w-40 h-14 flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-gray-900">
-                        <a href="https://github.com" className="flex justify-between items-center w-full text-white px-4">
+                        <a href="https://github.com/RahulSinghKathayat" className="flex justify-between items-center w-full text-white px-4">
                         Github <FaGithub size={30} /></a>
+                    </li>
+                    
+                    <li className="w-40 h-14 flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-black">
+                        <a href="https://x.com/neuCharacter" className="flex justify-between items-center w-full text-gray-300 px-4">X <FaXTwitter size={30}/></a>
                     </li>
 
                     <li className="w-40 h-14 flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-red-700">
-                        <a href="https://gmail.com" className="flex justify-between items-center w-full text-gray-300 px-4">Gmail <FaEnvelope size={30}/></a>
-                    </li>
+                        <a href="mailto:rahulkathayat000@gmail.com" className="flex justify-between items-center w-full text-gray-300 px-4">Gmail <FaEnvelope size={30}/></a>
+                    </li>  
+                    
                 </ul>
             </div>
         </div>
