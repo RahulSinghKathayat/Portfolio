@@ -13,7 +13,7 @@ const Skills = () =>{
                         <p className="my-4">HTML</p>
                     </div>
                 
-                    <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                    <div className="border-4 border-solid border-transparent animate-rgb-border hover:scale-110 duration-500">
                         <p className="my-4">CSS</p>
                     </div>
                 
@@ -33,7 +33,7 @@ const Skills = () =>{
                         <p className="my-4">NodeJS</p>
                     </div>
 
-                    <div className="shadow-md shadow-[#040c16] hover-scale-110 duration-500">
+                    <div className="border-4 border-solid border-transparent animate-rgb-border shadow-md shadow-[#040c16] hover-scale-110 duration-500">
                         <p className="my-4">TailwindCSS</p>
                     </div>
                     
