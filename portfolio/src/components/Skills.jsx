@@ -12,7 +12,51 @@ const Skills = () =>{
                     <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
                         <p className="my-4">HTML</p>
                     </div>
-                </div>    
+                
+                    <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                        <p className="my-4">CSS</p>
+                    </div>
+                
+                    <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                        <p className="my-4">JavaScript</p>
+                    </div>
+
+                    <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                        <p className="my-4">ReactJs</p>
+                    </div>
+
+                    <div className="shadow-md shadow-[#040c16] hover-scale-110 duration-500">
+                        <p className="my-4">TypeScript</p>
+                    </div>
+                    
+                    <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                        <p className="my-4">NodeJS</p>
+                    </div>
+
+                    <div className="shadow-md shadow-[#040c16] hover-scale-110 duration-500">
+                        <p className="my-4">TailwindCSS</p>
+                    </div>
+                    
+                    <div className="shadow-md shadow-[#040c16] hover-scale-110 duration-500">
+                        <p className="my-4">MongoDB</p>
+                    </div>
+                    
+                    <div className="shadow-md shadow-[#040c16] hover-scale-110 duration-500">
+                        <p className="my-4">Github</p>
+                    </div>
+                    
+                    <div className="shadow-md shadow-[#040c16] hover-scale-110 duration-500">
+                        <p className="my-4">Python</p>
+                    </div>
+
+                    <div className="shadow-md shadow-[#040c16] hover-scale-110 duration-500">
+                        <p className="my-4">Machine Learning</p>
+                    </div>
+
+                    <div className="shadow-md shadow-[#040c16] hover-scale-110 duration-500">
+                        <p className="my-4">Deep Learning</p>
+                    </div>
+                </div>  
              </div>
         </div>
     )
