@@ -1,5 +1,5 @@
 import React from "react";
-import code from '../assets/chatgpt.webp'
+import code from '../assets/code2.png'
 
 const Works = () =>{
     return(
