@@ -28,7 +28,7 @@ const Works = () =>{
                     </div>
 
                     <div
-                    className="bg-gradient-to-r from-cyan-500 to-blue-500 shadow-lg shadow-white group container hover:scale-110 duration-500 rounded-md flex justify-center items-center mx-auto content-div">
+                    className="bg-gradient-to-r from-amber-500 to-orange-500 shadow-lg shadow-white group container hover:scale-110 duration-500 rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-100 group-hover:opacity-100 flex justify-center items-center flex-col">
                             <span className="text-lg font-bold text-white tracking-wider">Payment Website</span>
                             <p className="text-center">Created a webpage using the MERN stack, featuring a signup page, 
@@ -42,7 +42,7 @@ const Works = () =>{
                     </div>
                     
                     <div
-                    className="bg-gradient-to-r from-cyan-500 to-blue-500 shadow-lg shadow-white group container hover:scale-110 duration-500 rounded-md flex justify-center items-center mx-auto content-div ">
+                    className="bg-gradient-to-r from-purple-500 to-violet-600 shadow-lg shadow-white group container hover:scale-110 duration-500 rounded-md flex justify-center items-center mx-auto content-div ">
                         <div className="opacity-100 group-hover:opacity-100 flex justify-center items-center flex-col">
                             <span className="text-lg font-bold text-white tracking-wider">My Portfolio</span>
                             <p className="text-center">Developed a portfolio website using ReactJS, featuring sections for Home, Skills, Projects, About, and Contact with smooth navigation and responsive design</p>
