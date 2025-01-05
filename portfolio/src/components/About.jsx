@@ -16,10 +16,8 @@ const About = () =>{
                         <p className="flex text-left">Hi. I'm Rahul Kathayat, nice to meet you. Please take a look around.</p>
                         </div>
                         <div>
-                            <p className="flex text-left">I'm a passionate full-stack developer skilled in building scalable, end-to-end web applications. 
-                            I specialize in designing user-friendly interfaces and building strong backend systems to create smooth 
-                            and effective applications. I am committed to contributing to an organization's success 
-                            while continuously enhancing my skills and pursuing personal and professional growth</p>
+                            <p className="flex text-left">I'm a Full Stack enthusiast, skilled in building scalable, end-to-end Web applications. 
+                            I have experience in working with JavaScript/TypeScript, React.js, Node.js, TailwindCSS and numerous other tools.</p>
                         </div>
                     </div>
                 </div>
