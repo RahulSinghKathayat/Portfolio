@@ -31,7 +31,7 @@ const Works = () =>{
                     className="bg-gradient-to-r from-amber-500 to-orange-500 shadow-lg shadow-white group container hover:scale-110 duration-500 rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-100 group-hover:opacity-100 flex justify-center items-center flex-col">
                             <span className="text-lg font-bold text-white tracking-wider">Payment Website</span>
-                            <p className="text-center">Created a webpage using the MERN stack, featuring a signup page, 
+                            <p className="text-center">Created a website using the MERN stack, featuring a signup page, 
                                 a signin page, a dashboard, and a send money page.</p>
 
                             <div className="pt-8 text-center">

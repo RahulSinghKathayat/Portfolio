@@ -22,7 +22,7 @@ const Skills = () =>{
                     </div>
 
                     <div className="border-2 border-solid border-transparent animate-rgb-border shadow-md shadow-white bg-indigo-200 text-black hover:scale-110 duration-500">
-                        <p className="my-4">ReactJs</p>
+                        <p className="my-4">React.js</p>
                     </div>
 
                     <div className="border-2 border-solid border-transparent animate-rgb-border shadow-md shadow-white bg-indigo-200 text-black hover:scale-110 duration-500">
@@ -30,7 +30,7 @@ const Skills = () =>{
                     </div>
                     
                     <div className="border-2 border-solid border-transparent animate-rgb-border shadow-md shadow-white bg-indigo-200 text-black hover:scale-110 duration-500">
-                        <p className="my-4">NodeJS</p>
+                        <p className="my-4">Node.jS</p>
                     </div>
 
                     <div className="border-2 border-solid border-transparent animate-rgb-border shadow-md shadow-white bg-indigo-200 text-black hover:scale-110 duration-500">
