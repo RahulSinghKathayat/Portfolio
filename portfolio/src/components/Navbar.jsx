@@ -30,7 +30,7 @@ const Navbar = () =>{
                 {!nav ? <FaBars size={20} /> : <FaTimes size={20} />}
             </div>
 
-            <ul className={!nav? 'hidden':'absolute top-0 left-0 w-full h-screen bg-slate-900 flex flex-col justify-content items-center'}>
+            <ul className={!nav? 'hidden':'absolute top-20 left-0 w-full h-screen bg-slate-900 flex flex-col justify-content items-center cursor-pointer'}>
                 <li className="py-6 text-4xl"><Link onClick={handleClick} to="home" smooth={true} duration={500}>Home</Link></li>
                 <li className="py-6 text-4xl"> <Link onClick={handleClick} to="skills" smooth={true} duration={500}>Skills</Link></li>
                 <li className="py-6 text-4xl"><Link onClick={handleClick} to="works" smooth={true} duration={500}>Works</Link></li>
