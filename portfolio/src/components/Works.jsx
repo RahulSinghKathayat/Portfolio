@@ -16,7 +16,7 @@ const Works = () =>{
                     <div
                     className="bg-gradient-to-r from-cyan-500 to-blue-500 shadow-lg shadow-white group container hover:scale-110 duration-500 rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-100 group-hover:opacity-100 flex justify-center items-center flex-col">
-                            <span className="text-lg font-bold text-white tracking-wider">Food ordering webpage</span>
+                            <span className="text-lg font-bold text-white tracking-wider">Food Ordering Frontend</span>
                             <p className="text-center">Created a webpage using only HTML, CSS, and JavaScript 
                                 that includes a dynamic cart section, a list of available food items, a carousel, and an inquiry section.</p>
 
